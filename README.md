@@ -1,6 +1,6 @@
 # Notes and assumptions
 
-In order to make running the backend/frontend and tests in one command I added:
+In order to simplify running the backend/frontend and tests in one command I added:
 
 - one endpoint in backend, waiting for HEAD requests on `/`, this allows using a script which runs the backend in background and waits for availability (not working on POST endpoints)
 - one extra `npm` script in frontend, which allows running the frontend with hot reloaded disabled
